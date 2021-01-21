@@ -18,7 +18,7 @@ If the blank / default option for the Language Picker is choosen the defaults ar
 
 This file is parsed and if any required strings are missing the ones from the default language are used instead, when building up the context. Any additional string fields set are ignored.
 
-See the [fr.json](/public/fr.json) file for an example.
+See the [fr.json](/public/languages/fr.json) file for an example.
 The [useGetComponentStrings](/src/hooks/useGetComponentStrings.ts) hooks file contains the core logic, exposing a generator function for building up a new instance of the ComponentStringsContext value.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -27,9 +27,7 @@ export const generateComponentStringsContext = (data: {components: any}) => {
 		[componentAStringsKey]: generateValues(componentsObject, componentAStringsKey, componentAEnglishStrings),
 		[componentBStringsKey]: generateValues(componentsObject, componentBStringsKey, componentBEnglishStrings),
 		[languagePickerStringsKey]: generateValues(componentsObject, languagePickerStringsKey, languagePickerEnglishStrings),
-		Shared: {
-			appName: "Language Selection Test"
-		}
+		Shared: generateValues(componentsObject, "Shared", {appName: "Language Selection Test"})
 	}
 }
 type ComponentStringsContextType = ReturnType<typeof generateComponentStringsContext>;

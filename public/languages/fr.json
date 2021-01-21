@@ -1,6 +1,9 @@
 {
 	"direction": "ltr",
 	"components": {
+		"Shared": {
+			"appName": "Test de sélection de la langue"
+		},
 		"ComponentA": {
 			"title": "Appuyez sur l'un des boutons",
 			"confirmButton": "Oui",
