@@ -13,7 +13,7 @@ export const LanguagePicker: React.FC<LanguagePickerProps> = ({resetAppLanguage}
 		if(language){
 			//you would normally split this out and serve from an API somewhere, this is just an example
 			console.log("BEFORE RETRIVE");
-			const res = await fetch(`http://localhost:3000/languages/${language}.json`);
+			const res = await fetch(`https://happy-euler-558afd.netlify.app/languages/${language}.json`);
 			var o = await res.json();
 			if(o && o.components){
 				console.log("GOOD");
