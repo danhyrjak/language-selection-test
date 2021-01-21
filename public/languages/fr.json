@@ -1,0 +1,20 @@
+{
+	"direction": "ltr",
+	"components": {
+		"ComponentA": {
+			"title": "Appuyez sur l'un des boutons",
+			"confirmButton": "Oui",
+			"cancelButton": "non"
+		},
+		"ComponentB": {
+			"title": "Entrez votre nom dans le formulaire ci-dessous",
+			"nameLabel": "Nom",
+			"alertPrefix": "Tu es entré",
+			"buttonLabel": "Aller!"
+		},
+		"LanguagePicker": {
+			"englishOption": "Anglais",
+			"frenchOption": "Français"
+		}
+	}
+}
